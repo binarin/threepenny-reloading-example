@@ -1,0 +1,9 @@
+* threepenny-gui automatic reloading example
+
+  This is the accompanying code for a [[https://binarin.ru/post/auto-reload-threepenny-gui/][my blog post]]. You can start experimenting with it by running:
+  #+BEGIN_SRC sh
+    ghcid -c 'cabal new-repl' \
+          --reload=./Main.hs \
+          -T $':reload Main\nMain.mainDevel' \
+          --restart=./threepenny-reloading-example.cabal
+  #+END_SRC
