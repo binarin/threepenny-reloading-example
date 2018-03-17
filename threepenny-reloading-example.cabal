@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: eb115c906cd2840538ef487d4227664126d280d152e85110f76a1cb17c720b5d
+-- hash: 1fddbb2352201e3b16c6d56077fd7265e48a26aa23c9ac1e079b0b2019e72a0c
 
 name:           threepenny-reloading-example
 version:        0.1.0.0
@@ -19,7 +19,10 @@ executable threepenny-reloading-example
   main-is: Main.hs
   other-modules:
       Paths_threepenny_reloading_example
+  default-extensions: ScopedTypeVariables
   build-depends:
       base >=4.10 && <4.11
+    , exceptions
+    , process
     , threepenny-gui
   default-language: Haskell2010

@@ -8,6 +8,10 @@ homepage: https://github.com/binarin/threepenny-reloading-example
 dependencies:
 - base >=4.10 && <4.11
 - threepenny-gui
+- process
+- exceptions
+default-extensions:
+  - ScopedTypeVariables
 executables:
   threepenny-reloading-example:
     main: Main.hs
