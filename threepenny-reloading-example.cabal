@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 070aed74b08541aa06a2b34499f64d6d9ff76d4e073e96a308b303d7b98b61c4
+-- hash: eb115c906cd2840538ef487d4227664126d280d152e85110f76a1cb17c720b5d
 
 name:           threepenny-reloading-example
 version:        0.1.0.0
@@ -15,13 +15,11 @@ license-file:   LICENSE
 build-type:     Simple
 cabal-version:  >= 1.10
 
-extra-source-files:
-    ChangeLog.md
-
 executable threepenny-reloading-example
   main-is: Main.hs
   other-modules:
       Paths_threepenny_reloading_example
   build-depends:
       base >=4.10 && <4.11
+    , threepenny-gui
   default-language: Haskell2010
