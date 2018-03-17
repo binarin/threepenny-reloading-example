@@ -1,0 +1,12 @@
+name: threepenny-reloading-example
+version: '0.1.0.0'
+category: Development
+author: Alexey Lebedeff
+maintainer: binarin@binarin.ru
+license: MIT
+homepage: https://github.com/binarin/threepenny-reloading-example
+dependencies:
+- base >=4.10 && <4.11
+executables:
+  threepenny-reloading-example:
+    main: Main.hs
