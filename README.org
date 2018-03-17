@@ -4,6 +4,6 @@
   #+BEGIN_SRC sh
     ghcid -c 'cabal new-repl' \
           --reload=./Main.hs \
-          -T $':reload Main\nMain.mainDevel' \
+          -T Main.mainDevel \
           --restart=./threepenny-reloading-example.cabal
   #+END_SRC
